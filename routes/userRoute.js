@@ -1,11 +1,6 @@
 const express = require("express");
 const router = express.Router();
 const User = require("../models/userModel");
-// const MessageUs = require("../models/sendUsMessageModel");
-// const Token = require("../models/tokenModel");
-// const sendEmail = require("../utlis/sendEmail");
-// const sendVerify = require("../utlis/sendVerifyEmail");
-// const Mechanic = require("../models/mechanicModel");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const authMiddleware = require("../middlewares/authMiddleware");

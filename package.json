@@ -1,7 +1,7 @@
 {
   "name": "contact_info",
   "version": "1.0.0",
-  "description": "Online_Motorcycle_Service_Booking_Web_Application",
+  "description": "Contact Information Server",
   "main": "index.js",
   "engines": {
     "node": "15.7.0",
